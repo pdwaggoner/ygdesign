@@ -112,4 +112,4 @@ Of note, users can declare "discrete" in the `type` argument if working with dis
 
 ## How do I get `ygdesign`? 
 
-`ygdesign` is under active development at this repo. Engagement and collaboration of any kind is encouraged, whether via filing an issue or submitting a pull request with enhancements or bug fixes. 
+`ygdesign` is under active development at this repo. Engagement and collaboration of any kind is encouraged, whether via filing an [issue](https://github.com/pdwaggoner/ygdesign/issues) or submitting a [pull request](https://github.com/pdwaggoner/ygdesign/pulls) with enhancements or bug fixes. 
