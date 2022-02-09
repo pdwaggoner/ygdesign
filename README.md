@@ -1,9 +1,3 @@
----
-title: "README"
-author: Philip Waggoner
-date: 2/9/2022
----
-
 ## `ygdesign`: YouGov Design Tools
 
 The goal of `ygdesign` is to offer a suite of tools to aid in the design and production of data visualization. The package will eventually include many tools, e.g., `ggplot2` theme's, geoms, etc. But for now, the package only includes a color palette generator for all color palettes from the 2022 YouGov brand refresh.
@@ -28,32 +22,71 @@ Users simply pass the name of the desired palette in the main function `yg_palet
 
 To display or use a specific palette, pass the palette name in quotes to `yg_palette()`.
 
-```{r }
+```{r}
 yg_palette("ps_core")
+```
+![](figs/one.png)
+
+```{r}
 yg_palette("secondary_core")
+```
+![](figs/two.png)
+
+```{r}
 yg_palette("grapefruit")
+```
+![](figs/three.png)
+
+```{r}
 yg_palette("plum")
+```
+![](figs/four.png)
+
+```{r}
 yg_palette("pomegranate")
+```
+![](figs/five.png)
+
+```{r}
 yg_palette("blueberry")
+```
+![](figs/six.png)
+
+```{r}
 yg_palette("avocado")
+```
+![](figs/seven.png)
+
+```{r}
 yg_palette("full")
+```
+![](figs/eight.png)
+
+```{r}
 yg_palette("grayscale")
 ```
+![](figs/nine.png)
 
 ## Interpolation via the "continuous" `type`
 
 To interpolate between existing colors in a given palette, pass the number of desired shades (`n`), the palette name (`name`), and the type (`type`) to `yg_palette()`. For example, interpolate 50 shades for the "ps_core" and "grayscale" palette:
 
-```{r }
+```{r}
 yg_palette(n = 50, name = "ps_core", type = "continuous")
+```
+![](figs/ten.png)
+
+```{r}
 yg_palette(n = 50, name = "grayscale", type = "continuous")
 ```
+![](figs/eleven.png)
 
 Further, users can increase `n` for larger contexts or to eliminate separation between interpolated shades. Start with: 
 
 ```{r}
 yg_palette(n = length(yg_palette("full")), name = "full", type = "continuous")
 ```
+![](figs/twelve.png)
 
 which is equivalent to:
 
@@ -66,15 +99,17 @@ But note the difference with, e.g., `n = 150`:
 ```{r}
 yg_palette(n = 150, name = "full", type = "continuous")
 ```
+![](figs/thirteen.png)
 
 Or with `n = 500`:
 
 ```{r}
 yg_palette(n = 500, name = "full", type = "continuous")
 ```
+![](figs/fourteen.png)
 
 Of note, users can declare "discrete" in the `type` argument if working with discrete class data (e.g., factors).
 
 ## How do I get `ygdesign`? 
 
-A stable version of `ygdesign` is available for download at CRAN. `ygdesign` is under active development on Github (<https://github.com/pdwaggoner/ygdesign/>). Engagement and collaboration of any kind is encouraged, whether via filing an issue or submitting a pull request with enhancements or bug fixes. 
+`ygdesign` is under active development at this repo. Engagement and collaboration of any kind is encouraged, whether via filing an issue or submitting a pull request with enhancements or bug fixes. 
