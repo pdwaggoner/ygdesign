@@ -1,8 +1,10 @@
 # `ygdesign`: YouGov Design Tools
 
-[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#concept)
 
 The goal of `ygdesign` is to offer a suite of tools to aid in the design and production of data visualization. The package will eventually include many tools, e.g., `ggplot2` theme's, geoms, etc. But for now, the package only includes a color palette generator for all color palettes from the 2022 YouGov brand refresh.
+
+**Note:** The repo has moved to the `ygverse`: <https://github.com/yougov-datascience/ygdesign>
 
 ## Use
 
