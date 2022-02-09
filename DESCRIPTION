@@ -1,0 +1,14 @@
+Package: ygdesign
+Type: Package
+Title: YouGov Design Tools
+Version: 0.1.0
+Authors@R: person("Philip", "Waggoner", role = c("aut", "cre"),
+    email = "philip.waggoner@yougov.com", comment = c(ORCID = "0000-0002-7825-7573"))
+Maintainer: Philip Waggoner <philip.waggoner@yougov.com>
+BugReports: https://github.com/pdwaggoner/ygdesign/issues
+Description: A suite of YouGov-compliant design tools including a variety of color 
+    palettes and soon, ggplot2 themes, geoms, and other tools for data visualization.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
